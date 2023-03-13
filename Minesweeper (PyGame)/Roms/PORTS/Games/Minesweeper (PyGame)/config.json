@@ -1,0 +1,7 @@
+{
+"label":"扫雷",
+"icon":"icon.png",
+"iconsel":"icon_sel.png",
+"launch":"launch.sh",
+"description":"[兽] 扫雷 (Minesweeper)"
+}

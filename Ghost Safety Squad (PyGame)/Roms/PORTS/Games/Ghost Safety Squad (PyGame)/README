@@ -1,0 +1,31 @@
+Ghost Safety Squad. It's a game!
+
+Made by Daniel Kinsman, Natasha de Bakker, Rebecca Knight and Nathan "Derris-Kharlan" Antony.
+See LICENCE file for details.
+
+Made in 2 and a bit days at tigjam australia 2012.
+
+You are a ghost.
+Move around with WSAD or the arrow keys (up down left right).
+Possess people with the spacebar.
+Try to save them from getting killed.
+
+-==Installation and running==-
+Linux:
+    Install python and pygame (e.g. sudo apt-get install python pygame)
+    Run game.py (./game.py)
+
+Mac OSX:
+    Not sure as I don't have a mac.
+    Make sure your version of python is up to date (need version at least 2.7.x)
+    Then try installing pygame from http://www.pygame.org/download.shtml
+    Then run game.py
+
+Windows:
+    Unzip the zip file and run game.exe
+    (Make sure you are using the prepackaged windows binary
+    from http://github.com/DanielKinsman/ghost-safety-squad-tigjamau/downloads)
+
+Have fun!
+
+danielkinsman@riseup.net

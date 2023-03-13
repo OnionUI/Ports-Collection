@@ -1,0 +1,62 @@
+body {
+	background: url("img/background.png");
+	margin: 0px;
+	font-family: sans-serif;
+}
+
+.column {
+	width: 320px;
+	height: 370px;
+	font-size: 9pt;
+	text-align: justify;
+}
+table{
+	font-size: 9pt;
+	text-align: justify;
+}
+
+#prevpage {
+	float: left;
+	cursor: pointer;
+}
+
+#nextpage {
+	float: right;
+	cursor: pointer;
+}
+
+#english {
+	margin: 15px auto 0px 10px;
+	float: left;
+}
+
+#spanish {
+	margin: 15px 10px 0px auto;
+	float: right;
+}
+
+#pagenumber {
+	text-align: center;
+	margin-top: 380px;
+	height: 20px;
+	font-size: 11pt;
+	font-weight: bold;
+}
+
+#booklet {
+	width: 685px;
+	height: 400px;
+	background: top left no-repeat white;
+	margin-top: 64px;
+	margin-left: auto;
+	margin-right: auto;
+	border: solid 3px #FFFFFF;
+}
+
+#buttons {
+	width: 685px;
+	height: 20px;
+	margin-top: 8px;
+	margin-left: auto;
+	margin-right: auto;
+}

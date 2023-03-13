@@ -1,0 +1,7 @@
+{
+"label":"迷宫城",
+"icon":"icon.png",
+"iconsel":"icon_sel.png",
+"launch":"launch.sh",
+"description":"Hydra Castle Labyrinth"
+}

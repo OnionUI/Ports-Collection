@@ -1,0 +1,326 @@
+Link's House
+Hyrule Field
+Lake Hylia
+Cocorico Village
+Mountain
+Lost Woods
+Tower - Basement -2
+Tower - Basement -1
+Tower - Ground Floor
+Tower - 1st Floor
+Tower - 2nd Floor
+Tower - 3rd Floor
+Tower - 4th Floor
+Tower - 5th Floor
+Tower - Roof
+To Link's House
+To Hyrule Field
+To Lake Hylia
+To Cocorico Village
+To the Mountain
+To the Lost Woods
+To Basement -2
+To Basement -1
+To the Ground Floor
+To the 1st Floor
+To the 2nd Floor
+To the 3rd Floor
+To the 4th Floor
+To the 5th Floor
+To the Roof
+Tutorial : After completing all the picross from a map, improve your total time to earn a reward.
+Tutorial : Press A button to solve the picross of the current box.
+Tutorial : Use the direction arrows to move the cursor, press A button to check a box and X to mark it as empty. *The numbers show you how many succesive boxes need to be checked on each line and column. **Every mistake will make you lose life and if you run out of hearts you'll be unable to continue the picross.
+Tutorial : Use the direction arrows to move from box to box.
+Tutorial : Your time to solve the picross is limited. If you run out of time, you'll lose a heart and receive some additional time in return.
+Tutorial : Trying to complete lines by elimination is a good strategy : fill in the cases you are sure off.
+Tutorial : Don't forget to press B button to mark the empty boxes, it will be a life saver.
+Tutorial : A bit harder picross to complete the tutorial.
+You'll need a sword to pass
+You'll need a bomb to pass
+You'll need gloves to pass
+You'll need flippers to pass
+You'll need a hook to pass
+You'll need a bow to pass
+You'll need a hamer to pass
+You'll need a small key to pass
+You'll need the master key to pass
+You've found a sword ! *Press Y button while playing picross to activate / deactivate the mouse.
+You've found a shield, your defence improves !*You'll receive half the damage !
+You've found the Pegasus boots, the time limits double !
+You've found the book of Mudora, the guessing mode is available ! ***Press X button on an empty box to flag it as a possible checked box, your mistakes won't show anymore. **Press H a second time to leave the guessing mode.
+You've found the gloves !
+You've bought a bomb sac !
+You've found a bow !
+You've found a hook !
+You've found flippers !
+You've found a hamer !
+You've found the Tower map !
+You've found the compass ! **The chests and the bosses will be shown on the map !
+You've found a small key !
+You've found the master key !
+You've found a new heart !
+You've found the Triforce !!!
+???
+Damage : 
+Time   : 
+                  Already tired ?                ?                  CONTINUE               ?                    Save and quit                               Quit without saving
+                  Already tired ?                                   Continue                    ?               SAVE AND QUIT             ?                 Quit without saving
+                  Already tired ?                                   Continue                                    Save and quit                  ?            QUIT WITHOUT SAVING          ?
+Best time : 
+Boss : 
+                     PAUSE                                                                      ?                 CONTINUE                ?                    Quit picross
+                     PAUSE                                                                                        Continue                     ?               QUIT PICROSS              ?
+Picross : 
+ SELECTION SCREEN
+RANK : 
+OPTIONS
+RECORDS
+MUSIC
+SOUND
+VALIDATE
+CANCEL
+BEST RANK EARNED : 
+SOLVED PICROSS IN ADVENTURE MODE : 
+SOLVED PICROSS IN FREE MODE : 
+BEST TOTAL TIME IN ADVENTURE MODE : 
+BEST TOTAL TIME IN FREE MODE : 
+RETURN
+DELETE
+DELETE ?
+YES
+NO
+ADVENTURE MODE
+FREE MODE
+PROFILE
+PICROSS IN ADV. MODE : 
+TIME IN ADV. MODE    : 
+PICROSS IN FREE MODE : 
+TIME IN FREE MODE    : 
+BuzzBlob challenge
+Poe duel
+Treasure chest game
+Skeleton Knight
+Shooting gallery
+Wizard Agahnim
+Hyrule Marathon
+Final battle
+P like Picross
+L like Link
+Flower
+Navi
+Small heart
+Link
+Picross Tower
+Passage blocked by a stone
+Passage blocked by bushes
+Tower entrance
+Locked door
+Bat
+Old skull on the floor
+Switch
+Torch
+Spiked floor
+Upward staircase
+Cracked wall
+Skeleton lying on the floor
+Decorative statue
+Spiral staircase
+Popo
+Cracked rock
+Link with jar VS BuzzBlob
+The end of BuzzBlob
+Excalibur in the anvil
+Crow
+Sign : 'Lake Hylia'
+Zora submerged
+Destroyed bridge
+Whirlpool
+Heavy stone blocking the path
+Chest containing a shield
+Color switch
+Locked door
+Rat
+Candlestick
+Descending spiral staircase
+Hoba
+Land surrounded by water
+Wall fountain
+Flooded room
+BariRed and BariMini
+Button switch
+Link finds a small key
+Hidden staircase
+Prison
+Room divived by a chasm
+AntiFairy
+Poe attacks !
+Link counter-attacks !
+Powergloves
+Narrow passage
+Leever
+Small key on the floor
+Star switch
+Kodondo
+Spiked ball
+Key in a chest
+Heart container
+Helmasaur
+Dungeon map
+Rabbit of the plains
+Flower blocking the passage
+Village entrance
+Child sideway view
+Pot
+Weathercock
+Hen
+Old woman and her broom
+Library sign
+Traveling salesman
+Bomb
+Old wise man
+Old drunkard
+To Death Mountain
+Walking girl
+Bank
+Door of a house
+Cowboy
+Fountain
+Bandit
+Tavern sign
+Treasure chest game sign
+Link gains a new heart
+Ravine
+Moblin
+Book of Mudora
+Zora out of the water
+Stone in the water
+Giant Zora
+Heart in the water
+Pontoon
+Stalfos
+Giant ball
+Snap Dragon
+Compass
+Hardhat Beetle
+Giant spiked ball
+Gibdo
+Flowing water
+Giant pot
+Wizzrobe
+Armor statue
+Rocklops
+Zazak
+Spiked roller
+BowWow
+Bumper
+Copy
+Floorpainting
+Babuusu
+Information pannel
+Skeleton Knight
+Skeleton pile
+Skeleton crumbs
+Hook shot
+BuzzBlob
+Standing torch
+Spirit
+Small key on a stele
+Wallmaster
+Frightening statue
+Maskass
+Weird statue
+Turtle
+Purple Wizzrobe
+Uncle
+Chyasupa with a heartpiece
+Crab in the grass
+Silver Bow
+Deadrock
+Volcanic rock
+Owl statue
+Tektite
+Boulder
+Sheltered heart
+Zora's flippers
+Link arket
+Spot on!
+Siren
+Forrest entrance
+Small tree
+Parrot
+Sleeping man
+Flying bird
+Flute player
+Squirrel
+Lumberjack
+Forrest rabbit
+Witch
+Monkey
+Thief caught
+Little fairy
+Haunted tree
+Owls
+Magic hamer
+Heart in a flowerbed
+Sharkfish
+Floor drawing
+Suspicious fish
+Key in the water
+Lanternfish
+Empty space
+Key in the hand
+Ice Demon
+Snake wall statue
+Pengator
+Key on the wall
+Agahnim's sign
+Agahnim
+Magic attack
+Excalibur in action
+Boss key
+Decorated door
+HokkuBokku
+Wall pillar
+Creepy
+Guard
+Ganon wall drawing
+Guard with shield
+Pegasus boots
+Marathon Link
+Podium
+Triforce wallsign
+Falling guard
+Block to be crushed
+Floorsign
+Bowman
+Statue of Ganon
+Soldier swordsman
+Boss door
+Ball and Chain Soldier
+Wall decoration
+Lynel
+Stormy sky
+Ganon
+Excalibur
+Link finds the Triforce
+Zelda
+The insane desire of Ganon for the Triforce changes the Kingdom into picross grids.
+The weird curse changes the landscape, slicing the Kingdom in squares.
+Faced with the squared land, Link storms out to defeat Ganon and to save his princess.
+After the lengthy quest, the Hero of Hyrule again fulfilled his destiny. Link solved all the Picross, defeated Ganon, recovered the Triforce and saved the Princess. **The Realm, freed from the curse, returns to it original form and peace reigned again. **Meanwhile, our Hero hopes Ganon will return to bring back some life to the too peaceful Kingdom of Hyrule.
+SCORE :
+RANK : 
+ADVENTURE :
+SOLVED PICROSS : 
+HEARTS : 
+OBJETCS : 
+TOTAL TIME : 
+FREE :
+FREE GAME
+PAGE
+SELECT PICROSS
+RANDOM PICROSS
+BACKGROUND :
+THEME :
+MUSIC :

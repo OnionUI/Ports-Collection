@@ -1,0 +1,53 @@
+{
+  "Version": 1,
+  "Bullets": [
+    {
+      "Name": "10mm",
+      "Pic": {
+        "Type": "Directional",
+        "Sprites": "9mm"
+      },
+      "Speed": 1100,
+      "Range": 50,
+      "Power": 10
+    },
+    {
+      "Name": "fireball",
+      "Pic": {
+        "Type": "Animated",
+        "Sprites": "fireball",
+        "TicksPerFrame": 4
+      },
+      "Speed": 350,
+      "Range": 200,
+      "Power": 18,
+      "Size": [3, 3],
+      "Special": "Flame",
+      "Spark": "fireball_hit",
+      "HitSounds": {
+        "Object": "hit_fire",
+        "Flesh": "hit_fire",
+        "Wall": "hit_fire"
+      }
+    },
+    {
+      "Name": "fireball_green",
+      "Pic": {
+        "Type": "Animated",
+        "Sprites": "fireball_green",
+        "TicksPerFrame": 4
+      },
+      "Speed": 550,
+      "Range": 300,
+      "Power": 40,
+      "Size": [3, 3],
+      "Special": "Flame",
+      "Spark": "fireball_green_hit",
+      "HitSounds": {
+        "Object": "hit_fire",
+        "Flesh": "hit_fire",
+        "Wall": "hit_fire"
+      }
+    }
+  ]
+}

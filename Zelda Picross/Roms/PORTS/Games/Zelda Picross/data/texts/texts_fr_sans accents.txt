@@ -1,0 +1,326 @@
+La maison de Link
+Champ d'Hyrule
+Lac Hylia
+Cocorico Village
+Montagne
+Lost Woods
+Tour - Sous-sol -2
+Tour - Sous-sol -1
+Tour - Rez-de-chaussée
+Tour - 1er étage
+Tour - 2ème étage
+Tour - 3e étage
+Tour - 4e étage
+Tour - 5ème étage
+Tour - Toit
+A la maison de Link
+Au terrain d'Hyrule
+Vers le lac Hylia
+Vers le village de Cocorico
+Vers la montagne
+Vers les bois perdus
+Vers le sous-sol -2
+Vers le sous-sol -1
+Au rez-de-chaussée
+Au 1er étage
+Au 2ème étage
+Au 3ème étage
+Au 4ème étage
+Au 5ème étage
+Sur le toit
+Tutoriel : Après avoir terminé tous les picross d'une carte, améliorez votre temps total pour gagner une récompense.
+Tutoriel : Appuyez sur le bouton A pour résoudre le picross de la boîte actuelle.
+Tutorial : Utilisez les flèches de direction pour déplacer le curseur, appuyez sur le bouton A pour cocher une case et sur X pour la marquer comme vide. *Les chiffres vous indiquent combien de cases successives doivent être cochées sur chaque ligne et colonne. **Chaque erreur vous fera perdre de la vie et si vous n'avez plus de cœur, vous ne pourrez plus continuer le picross.
+Tutoriel : Utilisez les flèches de direction pour vous déplacer de case en case.
+Tutorial : Votre temps pour résoudre le picross est limité. Si vous manquez de temps, vous perdrez un cœur et recevrez un temps supplémentaire en retour.
+Tutoriel : Essayer de compléter les lignes par élimination est une bonne stratégie : remplissez les cas dont vous êtes sûr.
+Tutoriel : N'oubliez pas d'appuyer sur le bouton B pour marquer les cases vides, cela vous sauvera la vie.
+Tutoriel : Un picross un peu plus difficile pour compléter le tutoriel.
+Vous aurez besoin d'une épée pour passer
+Vous aurez besoin d'une bombe pour passer
+Vous aurez besoin de gants pour passer
+Vous aurez besoin de nageoires pour passer
+Vous aurez besoin d'un crochet pour passer
+Vous aurez besoin d'un arc pour passer
+Vous aurez besoin d'un hammer pour passer
+Vous aurez besoin d'une petite clé pour passer
+Vous aurez besoin du passe-partout pour passer
+Vous avez trouvé une épée ! *Appuyez sur le bouton Y en jouant au picross pour activer/désactiver la souris.
+Vous avez trouvé un bouclier, votre défense s'améliore !* Vous subissez la moitié des dégâts !
+Vous avez trouvé les bottes Pegasus, les délais sont doublés !
+Vous avez trouvé le livre de Mudora, le mode devinette est disponible ! ***Appuyez sur le bouton X sur une case vide pour la marquer comme une case possiblement cochée, vos erreurs ne seront plus affichées. **Appuyez une seconde fois sur le bouton H pour quitter le mode devinette.
+Vous avez trouvé les gants !
+Vous avez acheté un sac à bombe !
+Vous avez trouvé un arc !
+Vous avez trouvé un hameçon !
+Vous avez trouvé des nageoires !
+Vous avez trouvé un hamer !
+Vous avez trouvé la carte de la Tour !
+Vous avez trouvé la boussole ! **Les coffres et les boss seront indiqués sur la carte !
+Vous avez trouvé une petite clé !
+Vous avez trouvé le passe-partout !
+Vous avez trouvé un nouveau cœur !
+Vous avez trouvé la Triforce ! !!
+? ??
+Dommages : 
+Heure : 
+                  Déjà fatigué ?                ?                  CONTINUER ?                    Enregistrer et quitter Quitter sans enregistrer
+                  Déjà fatigué ?                                   Continuer ?               SAUVEGARDER ET QUITTER ?                 Quitter sans sauvegarder
+                  Déjà fatigué ?                                   Continuer Enregistrer et quitter ?            QUITTER SANS SAUVEGARDER ?
+Meilleur moment : 
+Patron : 
+                     PAUSE ?                 CONTINUER ?                    Quitter picross
+                     PAUSE Continuer ?               QUITTER PICROSS ?
+Picross : 
+ ÉCRAN DE SÉLECTION
+RANG : 
+OPTIONS
+RECORDS
+MUSIQUE
+SON
+VALIDER
+ANNULER
+MEILLEUR RANG OBTENU : 
+RÉSOLU PICROSS EN MODE AVENTURE : 
+RÉSOLU PICROSS EN MODE LIBRE : 
+MEILLEUR TEMPS TOTAL EN MODE AVENTURE : 
+MEILLEUR TEMPS TOTAL EN MODE LIBRE : 
+RETURN
+DELETE
+DELETE ?
+OUI
+NON
+MODE AVENTURE
+MODE LIBRE
+PROFIL
+PICROSS EN ADV. MODE : 
+TIME IN ADV. MODE : 
+PICROSS EN MODE LIBRE : 
+TEMPS EN MODE LIBRE : 
+Le défi BuzzBlob
+Duel de Poe
+Jeu du coffre au trésor
+Chevalier Squelette
+Galerie de tir
+Sorcier Agahnim
+Marathon d'Hyrule
+Bataille finale
+P comme Picross
+L comme Link
+Fleur
+Navi
+Petit cœur
+Lien
+Tour de Picross
+Passage bloqué par une pierre
+Passage bloqué par des buissons
+Entrée de la tour
+Porte verrouillée
+Chauve-souris
+Vieux crâne sur le sol
+Interrupteur
+Torche
+Plancher à pointes
+Escalier ascendant
+Mur fissuré
+Squelette allongé sur le sol
+Statue décorative
+Escalier en spirale
+Popo
+Roche fissurée
+Lien avec jar VS BuzzBlob
+La fin de BuzzBlob
+Excalibur dans l'enclume
+Corbeau
+Signe : 'Lake Hylia'.
+Zora submergée
+Pont détruit
+Whirlpool
+Une lourde pierre bloque le chemin
+Coffre contenant un bouclier
+Interrupteur de couleur
+Porte verrouillée
+Rat
+Chandelier
+Descente d'un escalier en colimaçon
+Hoba
+Terrain entouré d'eau
+Fontaine murale
+Salle inondée
+BariRed et BariMini
+Interrupteur à bouton
+Link trouve une petite clé
+Escalier caché
+Prison
+Chambre divisée par un gouffre
+Anti-Fairy
+Poe attaque !
+Link contre-attaque !
+Powergloves
+Passage étroit
+Leever
+Petite clé sur le sol
+Interrupteur à étoile
+Kodondo
+Boule à pointes
+Clé dans un coffre
+Récipient à cœur
+Helmasaur
+Carte du donjon
+Lapin des plaines
+Fleur bloquant le passage
+Entrée du village
+Vue latérale de l'enfant
+Pot
+Girouette
+Poule
+Vieille femme et son balai
+Panneau de la bibliothèque
+Vendeur itinérant
+Bombe
+Vieux sage
+Vieil ivrogne
+Vers le Mont de la Mort
+Walking girl
+Banque
+Porte d'une maison
+Cowboy
+Fontaine
+Bandit
+Enseigne de taverne
+Panneau de jeu du coffre à trésor
+Link gagne un nouveau cœur
+Ravin
+Moblin
+Livre de Mudora
+Zora hors de l'eau
+Pierre dans l'eau
+Zora géante
+Le cœur dans l'eau
+Ponton
+Stalfos
+Boule géante
+Snap Dragon
+Compass
+Coccinelle du casque
+Boule géante à pointes
+Gibdo
+L'eau qui coule
+Pot géant
+Wizzrobe
+Statue d'armure
+Rocklops
+Zazak
+Rouleau à pointes
+BowWow
+Pare-chocs
+Copie
+Peinture de sol
+Babuusu
+Panneau d'information
+Chevalier Squelette
+Pile de squelettes
+Miettes de squelette
+Coup de crochet
+BuzzBlob
+Torche debout
+Esprit
+Petite clé sur une stèle
+Wallmaster
+Statue effrayante
+Maskass
+Statue étrange
+Tortue
+Wizzrobe violet
+Oncle
+Chyasupa avec une pièce de coeur
+Crabe dans l'herbe
+Arc en argent
+Deadrock
+Roche volcanique
+Statue de hibou
+Tektite
+Boulder
+Un cœur protégé
+Les nageoires de Zora
+Marché des liens
+Bien vu !
+Sirène
+Entrée de la forêt
+Petit arbre
+Perroquet
+L'homme endormi
+Oiseau volant
+Joueur de flûte
+Écureuil
+Bûcheron
+Lapin de Forrest
+Sorcière
+Singe
+Voleur attrapé
+Petite fée
+Arbre hanté
+Hiboux
+Hamer magique
+Un cœur dans un parterre de fleurs
+Requin pèlerin
+Dessin au sol
+Poisson suspect
+La clé dans l'eau
+Poisson-lanterne
+Espace vide
+La clé dans la main
+Démon des glaces
+Statue murale de serpent
+Pengator
+Clé sur le mur
+Le signe d'Agahnim
+Agahnim
+Attaque magique
+Excalibur en action
+Clé du patron
+Porte décorée
+HokkuBokku
+Pilier de mur
+Creepy
+Garde
+Dessin mural de Ganon
+Garde avec bouclier
+Bottes Pegasus
+Lien vers le marathon
+Podium
+Signature de la Triforce
+Protection contre les chutes
+Bloc à écraser
+Panneau de sol
+Bowman
+Statue de Ganon
+Soldat épéiste
+Porte du patron
+Soldat à boules et chaînes
+Décoration murale
+Lynel
+Ciel orageux
+Ganon
+Excalibur
+Link trouve la Triforce
+Zelda
+Le désir fou de Ganon pour la Triforce transforme le Royaume en grilles de picross.
+L'étrange malédiction change le paysage, découpant le Royaume en carrés.
+Face à la terre carrée, Link part à l'assaut pour vaincre Ganon et sauver sa princesse.
+Après cette longue quête, le héros d'Hyrule a de nouveau accompli son destin. Link a résolu tous les Picross, vaincu Ganon, récupéré la Triforce et sauvé la Princesse. **Le royaume, libéré de la malédiction, retrouve sa forme originelle et la paix règne à nouveau. **En attendant, notre héros espère que Ganon reviendra pour redonner vie au trop paisible royaume d'Hyrule.
+SCORE :
+RANG : 
+AVENTURE :
+PICROSS RÉSOLU : 
+COEUR : 
+OBJETS : 
+TEMPS TOTAL : 
+GRATUIT :
+JEU GRATUIT
+PAGE
+SELECT PICROSS
+RANDOM PICROSS
+CONTEXTE :
+THÈME :
+MUSIQUE :

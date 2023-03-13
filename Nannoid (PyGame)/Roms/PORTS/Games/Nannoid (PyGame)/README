@@ -1,0 +1,19 @@
+Nannoid
+
+http://www.imitationpickles.org/nannoid/
+
+you may contact me at philhassey@yahoo.com
+
+===========================================
+Running under Linux
+===========================================
+
+Dependancies
+
+- SDL
+- SDL_image
+- SDL_mixer
+- python
+- pygame
+
+$ python nannoid.py

@@ -1,0 +1,5 @@
+14;10;9;6;7;7;0;0; // -> nom de la map, musique, background, theme, picross background, picross theme
+0;1;4;2;197;0;1;1;0;11;1200;10;0;16;3;8; //type=0,salle,x,y,picross,up,down,left,right,musique,tps,degats,requis,objet, nb
+0;2;4;3;196;1;0;1;0;10;900;8;13;0;1;0;
+1;1;3;2;9;0;0;0;1;13;1;0; //type=1,id,x,y,icon,up,down,left,right,lvl dest, case dest, status
+1;2;3;3;9;0;0;0;1;13;2;1;
