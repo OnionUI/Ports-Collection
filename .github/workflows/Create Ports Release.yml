@@ -1,0 +1,46 @@
+name: Create Ports Release
+
+permissions:
+  id-token: "write"
+  contents: "write"
+  packages: "write"
+  pull-requests: "read"
+
+on:
+  push:
+    tags:
+      - v*
+
+
+jobs:
+  tagged-release:
+    name: Tagged release
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Install 7-Zip
+        run: sudo apt-get update && sudo apt-get install p7zip-full
+      - name: managing SorR too big file exception
+        run: |
+          7z x "Street of Rage Remake/Roms/PORTS/Games/Street of Rage Remake/SorR.7z" -o"Street of Rage Remake/Roms/PORTS/Games/Street of Rage Remake" && rm "Street of Rage Remake/Roms/PORTS/Games/Street of Rage Remake/SorR.7z"
+      - name: 7zipping Directories
+        run: |
+          for d in */ ; do
+            cd "$d" && 7z a "../${d%/}.7z" . && cd ..
+          done
+      - name: Get version
+        run: |
+          TAG="${{ github.ref_name }}"
+          echo "BUILD_VERSION=${TAG#v}" >> $GITHUB_ENV
+      - name: Create Release
+        uses: marvinpinto/action-automatic-releases@latest
+        with:
+          repo_token: ${{ secrets.GITHUB_TOKEN }}
+          title: "Ports Collection v${{ env.BUILD_VERSION }}"
+          prerelease: false
+          files: ./*.7z
+          draft: true
+          # automatic_release_tag: latest
+
