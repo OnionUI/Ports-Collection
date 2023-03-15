@@ -41,6 +41,8 @@ jobs:
           title: "Ports Collection v${{ env.BUILD_VERSION }}"
           prerelease: false
           files: ./*.7z
-          draft: true
+          draft: false
           # automatic_release_tag: latest
+
+
 
