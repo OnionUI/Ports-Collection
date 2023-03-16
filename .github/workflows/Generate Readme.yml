@@ -49,6 +49,43 @@ jobs:
         if [ $count -ne 0 ]; then
           echo "" >> README.md
         fi
+    - name: Create table of images for engines
+      run: |
+        echo "" >> README.md
+        echo "" >> README.md
+        echo \#\# PORT ENGINES >> README.md
+        echo The assets of these ports are licensed and must be added manually. Only open source engines and configuration are included. >> README.md
+        echo "|        |        |        |        |        |" >> README.md
+        echo "| :----: | :----: | :----: | :----: | :----: |" >> README.md
+        count=0
+        for dir in */ ; do
+          if [ -d "$dir/Roms/PORTS/Imgs" ] && [ -f "$dir/Roms/PORTS/Games"/*/_required_files.txt ]; then
+            image=$(find "$dir/Roms/PORTS/Imgs" -maxdepth 1 -type f -name "*.png")
+            if [ -n "$image" ]; then
+              name=$(basename "$dir" | sed -e 's/ /./g' -e 's/(//g' -e 's/)//g' -e 's/!/./g' -e 's/\x27/./g')
+              fullname=$(basename "$dir")
+              echo ----------------- $fullname    ----------  $name
+              release=$(curl -s https://api.github.com/repos/$GITHUB_REPOSITORY/releases/latest | jq -r '.assets[] | select(.name | contains("'"$name"'")) | .url')
+              echo release : $release && sleep 1
+              size=$(curl -s -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" "$release" | jq '.size' | numfmt --to=iec)
+              echo size : $size && sleep 1
+              download_url=$(curl -s -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" "$release" | jq -r '.browser_download_url')
+              echo download_url : $download_url && sleep 1
+              if [ $count -eq 0 ]; then
+                echo -n "| " >> README.md
+              fi
+              echo -n "<a href=\"$download_url\"><img src=\"$image\" alt=\"$fullname\" height=\"200\" /></a><br><sub>[$fullname]($download_url)<br>$size</sub> | " >> README.md
+              count=$((count + 1))
+              if [ $count -eq 5 ]; then
+                echo "" >> README.md
+                count=0
+              fi
+            fi
+          fi
+        done 
+        if [ $count -ne 0 ]; then
+          echo "" >> README.md
+        fi
     - name: Commit and push changes
       run: |
         git config --local user.email "action@github.com"
