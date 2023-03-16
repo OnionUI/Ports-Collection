@@ -79,6 +79,7 @@ jobs:
               if [ $count -eq 5 ]; then
                 echo "" >> README.md
                 count=0
+                sleep 60
               fi
             fi
           fi
@@ -93,5 +94,4 @@ jobs:
         git add README.md
         git commit -m "Readme update"
         git push
-
 
