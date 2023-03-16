@@ -28,7 +28,7 @@ jobs:
               name=$(basename "$dir" | sed -e 's/ /./g' -e 's/(//g' -e 's/)//g' -e 's/!/./g' -e 's/\x27/./g')
               fullname=$(basename "$dir")
               echo ----------------- $fullname    ----------  $name
-              release=$(curl -s https://api.github.com/repos/$GITHUB_REPOSITORY/releases/latest | jq -r '.assets[] | select(.name | contains("'"$name"'")) | .url')
+              release=$(curl -s https://api.github.com/repos/$GITHUB_REPOSITORY/releases/latest | jq -r '.assets[]? | select(.name | contains("'"$name"'")) | .url')
               echo release : $release
               size=$(curl -s -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" "$release" | jq '.size' | numfmt --to=iec)
               echo size : $size
@@ -65,7 +65,7 @@ jobs:
               name=$(basename "$dir" | sed -e 's/ /./g' -e 's/(//g' -e 's/)//g' -e 's/!/./g' -e 's/\x27/./g')
               fullname=$(basename "$dir")
               echo ----------------- $fullname    ----------  $name
-              release=$(curl -s https://api.github.com/repos/$GITHUB_REPOSITORY/releases/latest | jq -r '.assets[] | select(.name | contains("'"$name"'")) | .url')
+              release=$(curl -s https://api.github.com/repos/$GITHUB_REPOSITORY/releases/latest | jq -r '.assets[]? | select(.name | contains("'"$name"'")) | .url')
               echo release : $release && sleep 1
               size=$(curl -s -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" "$release" | jq '.size' | numfmt --to=iec)
               echo size : $size && sleep 1
