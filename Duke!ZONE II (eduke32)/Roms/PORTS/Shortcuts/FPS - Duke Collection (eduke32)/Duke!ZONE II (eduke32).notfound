@@ -5,7 +5,7 @@
 GameName="Duke!ZONE II (PORT - eduke32)"
 GameDir="Duke nukem 3D (eduke32)"
 GameExecutable="eduke32"
-GameDataFile=""
+GameDataFile="DUKE!ZON.GRP"
 
 # additional configuration
 KillAudioserver=1

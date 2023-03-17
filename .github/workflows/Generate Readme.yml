@@ -91,7 +91,7 @@ jobs:
               echo release_asset_url : $release_asset_url
               
               # size=$(curl -s -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" "$release_asset_url" | jq '.size' | numfmt --to=iec)
-              size=$(echo $release_assets_info | jq -r '.assets[]? | select(.name | contains("'"$name"'")) | .size' | numfmt --to=iec)
+              size=$(echo $release_assets_info | jq -r '.assets[]? | select(.name | contains("'"${name}.7z"'")) | .size' | numfmt --to=iec)
               echo size : $size
               
               # download_url=$(curl -s -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" "$release_asset_url" | jq -r '.browser_download_url')
