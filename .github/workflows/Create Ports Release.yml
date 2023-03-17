@@ -19,7 +19,10 @@ jobs:
 
     steps:
       - uses: actions/checkout@v3
-
+      - name: Get version
+        run: |
+          TAG="${{ github.ref_name }}"
+          echo "BUILD_VERSION=${TAG#v}" >> $GITHUB_ENV
       - name: Install 7-Zip
         run: sudo apt-get update && sudo apt-get install p7zip-full
       - name: managing SorR too big file exception
@@ -28,12 +31,9 @@ jobs:
       - name: 7zipping Directories
         run: |
           for d in */ ; do
-            cd "$d" && 7z a "../${d%/}.7z" . && cd ..
+            cd "$d" && 7z a "../${d%/}.7z" . && 7z a "../-Onion-Ports-Collection_v${{ env.BUILD_VERSION }}.7z" . && cd ..
           done
-      - name: Get version
-        run: |
-          TAG="${{ github.ref_name }}"
-          echo "BUILD_VERSION=${TAG#v}" >> $GITHUB_ENV
+
       - name: Create Release
         uses: marvinpinto/action-automatic-releases@latest
         with:
@@ -43,6 +43,5 @@ jobs:
           files: ./*.7z
           draft: false
           # automatic_release_tag: latest
-
 
 

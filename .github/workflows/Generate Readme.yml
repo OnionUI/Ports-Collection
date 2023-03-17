@@ -10,12 +10,24 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+    # - name: Wait for tagged-release task to succeed
+      # uses: lewagon/wait-on-check-action@v1.3.1
+      # with:
+        # ref: ${{ github.ref }}
+        # check-name: 'Tagged release'
+        # repo-token: ${{ secrets.GITHUB_TOKEN }}
+        # wait-interval: 10
     - uses: actions/checkout@v3
     - name: Create table of images
       run: |
         echo "" > README.md
         echo "" >> README.md
         echo \# Ports-Collection for Onion >> README.md
+        echo \#\# PORTS COLLECTION >> README.md
+        release_assets_info=$(curl -s https://api.github.com/repos/$GITHUB_REPOSITORY/releases/latest)
+        tag_name=$(echo $release_assets_info | jq '.tag_name')
+        size=$(echo $release_assets_info | jq -r '.assets[]? | select(.name | contains("-Onion-Ports-Collection_v")) | .size' | numfmt --to=iec)
+        echo "[Download the full Ports-Collection for Onion - ${tag_name//\"}](https://github.com/$GITHUB_REPOSITORY/releases/latest/download/-Onion-Ports-Collection_${tag_name//\"}.7z) ($size)" >> README.md
         echo \#\# FULL PORTS >> README.md
         echo These ports are free to play and contains all required assets. >> README.md
         echo "|        |        |        |        |        |" >> README.md
@@ -25,15 +37,21 @@ jobs:
           if [ -d "$dir/Roms/PORTS/Imgs" ] && [ ! -f "$dir/Roms/PORTS/Games"/*/_required_files.txt ]; then
             image=$(find "$dir/Roms/PORTS/Imgs" -maxdepth 1 -type f -name "*.png")
             if [ -n "$image" ]; then
-              name=$(basename "$dir" | sed -e 's/ /./g' -e 's/(//g' -e 's/)//g' -e 's/!/./g' -e 's/\x27/./g')
+              name=$(basename "$dir" | sed -e 's/ /./g' -e 's/(//g' -e 's/)//g' -e 's/!/./g' -e 's/\x27/./g' -e 's/\.\./\./g')
               fullname=$(basename "$dir")
               echo ----------------- $fullname    ----------  $name
-              release=$(curl -s https://api.github.com/repos/$GITHUB_REPOSITORY/releases/latest | jq -r '.assets[]? | select(.name | contains("'"$name"'")) | .url')
-              echo release : $release
-              size=$(curl -s -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" "$release" | jq '.size' | numfmt --to=iec)
+              
+              release_asset_url=$(echo $release_assets_info | jq -r '.assets[]? | select(.name | contains("'"$name"'")) | .url')
+              echo release_asset_url : $release_asset_url
+              
+              # size=$(curl -s -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" "$release_asset_url" | jq '.size' | numfmt --to=iec)
+              size=$(echo $release_assets_info | jq -r '.assets[]? | select(.name | contains("'"$name"'")) | .size' | numfmt --to=iec)
               echo size : $size
-              download_url=$(curl -s -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" "$release" | jq -r '.browser_download_url')
+              
+              # download_url=$(curl -s -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" "$release_asset_url" | jq -r '.browser_download_url')
+              download_url=https://github.com/$GITHUB_REPOSITORY/releases/latest/download/$name.7z
               echo download_url : $download_url
+              
               if [ $count -eq 0 ]; then
                 echo -n "| " >> README.md
               fi
@@ -51,6 +69,9 @@ jobs:
         fi
     - name: Create table of images for engines
       run: |
+        release_assets_info=$(curl -s https://api.github.com/repos/$GITHUB_REPOSITORY/releases/latest)
+        tag_name=$(echo $release_assets_info | jq '.tag_name')
+        
         echo "" >> README.md
         echo "" >> README.md
         echo \#\# PORT ENGINES >> README.md
@@ -65,12 +86,18 @@ jobs:
               name=$(basename "$dir" | sed -e 's/ /./g' -e 's/(//g' -e 's/)//g' -e 's/!/./g' -e 's/\x27/./g' -e 's/\.\./\./g')
               fullname=$(basename "$dir")
               echo ----------------- $fullname    ----------  $name
-              release=$(curl -s https://api.github.com/repos/$GITHUB_REPOSITORY/releases/latest | jq -r '.assets[]? | select(.name | contains("'"$name"'")) | .url')
-              echo release : $release && sleep 1
-              size=$(curl -s -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" "$release" | jq '.size' | numfmt --to=iec)
-              echo size : $size && sleep 1
-              download_url=$(curl -s -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" "$release" | jq -r '.browser_download_url')
-              echo download_url : $download_url && sleep 1
+              
+              release_asset_url=$(echo $release_assets_info | jq -r '.assets[]? | select(.name | contains("'"$name"'")) | .url')
+              echo release_asset_url : $release_asset_url
+              
+              # size=$(curl -s -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" "$release_asset_url" | jq '.size' | numfmt --to=iec)
+              size=$(echo $release_assets_info | jq -r '.assets[]? | select(.name | contains("'"$name"'")) | .size' | numfmt --to=iec)
+              echo size : $size
+              
+              # download_url=$(curl -s -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" "$release_asset_url" | jq -r '.browser_download_url')
+              download_url=https://github.com/$GITHUB_REPOSITORY/releases/latest/download/$name.7z
+              echo download_url : $download_url
+              
               if [ $count -eq 0 ]; then
                 echo -n "| " >> README.md
               fi
@@ -79,7 +106,6 @@ jobs:
               if [ $count -eq 5 ]; then
                 echo "" >> README.md
                 count=0
-                sleep 60
               fi
             fi
           fi
@@ -94,3 +120,4 @@ jobs:
         git add README.md
         git commit -m "Readme update"
         git push
+
