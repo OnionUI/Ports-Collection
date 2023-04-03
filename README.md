@@ -2,8 +2,8 @@
 
 # Ports-Collection for Onion
 ## PORTS COLLECTION
-[Download the full Ports-Collection for Onion - v1.0.6](https://github.com/OnionUI/Ports-Collection/releases/latest/download/-Onion-Ports-Collection_v1.0.6.7z) (964M)
-## FULL PORTS
+[Download the full Ports-Collection for Onion - v1.0.7](https://github.com/OnionUI/Ports-Collection/releases/latest/download/-Onion-Ports-Collection_v1.0.7.7z) (963M)
+## FREE & COMPLETE PORTS
 These ports are free to play and contains all required assets.
 |        |        |        |        |        |
 | :----: | :----: | :----: | :----: | :----: |
