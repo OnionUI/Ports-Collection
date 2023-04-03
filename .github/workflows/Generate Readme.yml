@@ -28,7 +28,7 @@ jobs:
         tag_name=$(echo $release_assets_info | jq '.tag_name')
         size=$(echo $release_assets_info | jq -r '.assets[]? | select(.name | contains("-Onion-Ports-Collection_v")) | .size' | numfmt --to=iec)
         echo "[Download the full Ports-Collection for Onion - ${tag_name//\"}](https://github.com/$GITHUB_REPOSITORY/releases/latest/download/-Onion-Ports-Collection_${tag_name//\"}.7z) ($size)" >> README.md
-        echo \#\# FULL PORTS >> README.md
+        echo \#\# FREE \& COMPLETE PORTS >> README.md
         echo These ports are free to play and contains all required assets. >> README.md
         echo "|        |        |        |        |        |" >> README.md
         echo "| :----: | :----: | :----: | :----: | :----: |" >> README.md
