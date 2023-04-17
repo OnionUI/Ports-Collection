@@ -2,10 +2,10 @@
 # Retroarch Ports Script Template
 
 # main configuration
-GameName="DOOM (PrBoom)"
+GameName="DOOM II - No Rest for the Living (PrBoom)"
 Core="prboom"
-RomDir="Doom (PrBoom)/doom"
-RomFile="DOOM.WAD"
+RomDir="Doom (PrBoom)/doom2"
+RomFile="NERVE.WAD"
 
 # additional configuration
 KillAudioserver=0

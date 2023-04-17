@@ -2,10 +2,10 @@
 # Retroarch Ports Script Template
 
 # main configuration
-GameName="DOOM (PrBoom)"
+GameName="Final Doom - TNT Evilution (PrBoom)"
 Core="prboom"
-RomDir="Doom (PrBoom)/doom"
-RomFile="DOOM.WAD"
+RomDir="Doom (PrBoom)/tnt"
+RomFile="TNT.WAD"
 
 # additional configuration
 KillAudioserver=0

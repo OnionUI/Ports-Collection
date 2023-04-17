@@ -2,10 +2,10 @@
 # Retroarch Ports Script Template
 
 # main configuration
-GameName="DOOM (PrBoom)"
+GameName="DOOM - SIGIL (PrBoom)"
 Core="prboom"
 RomDir="Doom (PrBoom)/doom"
-RomFile="DOOM.WAD"
+RomFile="SIGIL_v1_21.WAD"
 
 # additional configuration
 KillAudioserver=0
