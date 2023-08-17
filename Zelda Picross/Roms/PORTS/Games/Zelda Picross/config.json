@@ -1,7 +1,0 @@
-{
-"label":"Zelda Picross",
-"icon":"zeldapicross.png",
-"iconsel":"zeldapicross_sel.png",
-"launch":"launch.sh",
-"description":"NDS Port"
-}
