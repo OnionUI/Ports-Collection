@@ -13,6 +13,7 @@ PerformanceMode=0
 
 # specific to this port :
 Arguments=""								# Here you can specify some additional command arguments to the port launch command line
+unset LD_PRELOAD
 
 # running command line :
 /mnt/SDCARD/Emu/PORTS/launch_standalone.sh "$GameName" "$GameDir" "$GameExecutable" "$Arguments" "$GameDataFile" "$KillAudioserver" "$PerformanceMode"

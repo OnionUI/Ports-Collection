@@ -23,11 +23,12 @@ jobs:
         echo "" > README.md
         echo "" >> README.md
         echo \# Ports-Collection for Onion >> README.md
-        echo \#\# PORTS COLLECTION >> README.md
+        echo \#\# FULL PORTS COLLECTION >> README.md
         release_assets_info=$(curl -s https://api.github.com/repos/$GITHUB_REPOSITORY/releases/latest)
         tag_name=$(echo $release_assets_info | jq '.tag_name')
         size=$(echo $release_assets_info | jq -r '.assets[]? | select(.name | contains("-Onion-Ports-Collection_v")) | .size' | numfmt --to=iec)
         echo "[Download the full Ports-Collection for Onion - ${tag_name//\"}](https://github.com/$GITHUB_REPOSITORY/releases/latest/download/-Onion-Ports-Collection_${tag_name//\"}.7z) ($size)" >> README.md
+        echo "This archive contains all the ports that are also available one by one below." >> README.md
         echo \#\# FREE \& COMPLETE PORTS >> README.md
         echo These ports are free to play and contains all required assets. >> README.md
         echo "|        |        |        |        |        |" >> README.md
