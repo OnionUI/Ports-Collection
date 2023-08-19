@@ -1,0 +1,23 @@
+#!/bin/sh
+# Retroarch Ports Script Template
+
+# main configuration
+GameName="DOOM II - HL (PrBoom)"
+Core="prboom"
+RomDir="Doom (PrBoom)/doom2"
+RomFile="Hld2.wad"
+
+# additional configuration
+KillAudioserver=0
+PerformanceMode=0
+
+# specific to this port
+Arguments=""
+
+# running command line
+/mnt/SDCARD/Emu/PORTS/launch_retroarch.sh "$GameName" "$Core" "$RomDir" "$RomFile" "$Arguments" "$KillAudioserver" "$PerformanceMode"
+
+
+
+
+

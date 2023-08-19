@@ -36,7 +36,7 @@ jobs:
         count=0
         for dir in */ ; do
           if [ -d "$dir/Roms/PORTS/Imgs" ] && [ ! -f "$dir/Roms/PORTS/Games"/*/_required_files.txt ]; then
-            image=$(find "$dir/Roms/PORTS/Imgs" -maxdepth 1 -type f -name "*.png")
+            image=$(find "$dir/Roms/PORTS/Imgs" -maxdepth 1 -type f -name "*.png" | sort -r | tail -n 1)
             if [ -n "$image" ]; then
               name=$(basename "$dir" | sed -e 's/ /./g' -e 's/(//g' -e 's/)//g' -e 's/!/./g' -e 's/\x27/./g' -e 's/\.\./\./g')
               fullname=$(basename "$dir")
@@ -82,7 +82,7 @@ jobs:
         count=0
         for dir in */ ; do
           if [ -d "$dir/Roms/PORTS/Imgs" ] && [ -f "$dir/Roms/PORTS/Games"/*/_required_files.txt ]; then
-            image=$(find "$dir/Roms/PORTS/Imgs" -maxdepth 1 -type f -name "*.png")
+            image=$(find "$dir/Roms/PORTS/Imgs" -maxdepth 1 -type f -name "*.png" | sort -r | tail -n 1)
             if [ -n "$image" ]; then
               name=$(basename "$dir" | sed -e 's/ /./g' -e 's/(//g' -e 's/)//g' -e 's/!/./g' -e 's/\x27/./g' -e 's/\.\./\./g')
               fullname=$(basename "$dir")
