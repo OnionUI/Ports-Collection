@@ -5,7 +5,7 @@
 GameName="DOOM II (PrBoom)"
 Core="prboom"
 RomDir="Doom (PrBoom)/doom2"
-RomFile="DOOM2.WAD"
+RomFile="doom2.wad"
 
 # additional configuration
 KillAudioserver=0

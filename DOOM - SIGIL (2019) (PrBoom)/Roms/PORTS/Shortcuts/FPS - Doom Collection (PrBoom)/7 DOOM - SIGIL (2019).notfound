@@ -5,7 +5,7 @@
 GameName="DOOM - SIGIL (PrBoom)"
 Core="prboom"
 RomDir="Doom (PrBoom)/doom"
-RomFile="SIGIL.WAD"
+RomFile="SIGIL_v1_21.wad"
 
 # additional configuration
 KillAudioserver=0
