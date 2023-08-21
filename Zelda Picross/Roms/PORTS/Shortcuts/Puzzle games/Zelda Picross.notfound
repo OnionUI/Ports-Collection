@@ -8,7 +8,7 @@ GameExecutable="Zelda-Picross"				# Executable name of the port
 GameDataFile=""								# Used to detect if the port is currently installed or not, sometime the main executable is present but not the assets (cf diablo port) 
 
 # additional configuration
-KillAudioserver=0
+KillAudioserver=1
 PerformanceMode=0
 
 # specific to this port :
