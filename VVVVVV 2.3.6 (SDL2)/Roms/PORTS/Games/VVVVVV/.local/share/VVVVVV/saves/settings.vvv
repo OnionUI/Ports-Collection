@@ -2,6 +2,7 @@
 <Settings>
     <!-- Settings (duplicated from unlock.vvv) -->
     <Data>
+        <separate_interact>0</separate_interact>
         <fullscreen>0</fullscreen>
         <stretch>0</stretch>
         <useLinearFilter>0</useLinearFilter>
@@ -27,11 +28,14 @@
         <vsync>1</vsync>
         <musicvolume>256</musicvolume>
         <soundvolume>256</soundvolume>
-        <separate_interact>0</separate_interact>
         <controllerSensitivity>2</controllerSensitivity>
         <flipButton>0</flipButton>
-        <enterButton>3</enterButton>
-        <escButton>1</escButton>
+        <flipButton>1</flipButton>
+        <flipButton>2</flipButton>
+        <flipButton>3</flipButton>
+        <enterButton>6</enterButton>
+        <enterButton>4</enterButton>
+        <escButton>5</escButton>
         <restartButton>10</restartButton>
         <interactButton>2</interactButton>
     </Data>
