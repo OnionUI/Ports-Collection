@@ -30,9 +30,6 @@
         <soundvolume>256</soundvolume>
         <controllerSensitivity>2</controllerSensitivity>
         <flipButton>0</flipButton>
-        <flipButton>1</flipButton>
-        <flipButton>2</flipButton>
-        <flipButton>3</flipButton>
         <enterButton>6</enterButton>
         <enterButton>4</enterButton>
         <escButton>5</escButton>
