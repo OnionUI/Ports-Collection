@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Settings>
+    <!-- Settings (duplicated from unlock.vvv) -->
+    <Data>
+        <fullscreen>0</fullscreen>
+        <stretch>0</stretch>
+        <useLinearFilter>0</useLinearFilter>
+        <window_width>640</window_width>
+        <window_height>480</window_height>
+        <noflashingmode>0</noflashingmode>
+        <colourblindmode>0</colourblindmode>
+        <setflipmode>0</setflipmode>
+        <invincibility>0</invincibility>
+        <slowdown>30</slowdown>
+        <advanced_smoothing>0</advanced_smoothing>
+        <usingmmmmmm>0</usingmmmmmm>
+        <ghostsenabled>0</ghostsenabled>
+        <skipfakeload>0</skipfakeload>
+        <disablepause>0</disablepause>
+        <disableaudiopause>0</disableaudiopause>
+        <notextoutline>0</notextoutline>
+        <translucentroomname>0</translucentroomname>
+        <over30mode>1</over30mode>
+        <inputdelay>0</inputdelay>
+        <glitchrunnermode></glitchrunnermode>
+        <showingametimer>0</showingametimer>
+        <vsync>1</vsync>
+        <musicvolume>256</musicvolume>
+        <soundvolume>256</soundvolume>
+        <separate_interact>0</separate_interact>
+        <controllerSensitivity>2</controllerSensitivity>
+        <flipButton>0</flipButton>
+        <enterButton>3</enterButton>
+        <escButton>1</escButton>
+        <restartButton>10</restartButton>
+        <interactButton>2</interactButton>
+    </Data>
+</Settings>
