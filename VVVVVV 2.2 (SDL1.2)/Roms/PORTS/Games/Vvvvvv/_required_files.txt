@@ -1,0 +1,12 @@
+/mnt/SDCARD/Roms/PORTS/VVVVV/Games #
+.
+`-- Vvvvvv
+    |-- .vvvvvv
+    |   |-- levels
+    |   |   `-- .gitkeep
+    |   `-- saves
+    |       `-- unlock.vvv
+    |-- PLACE\ data.zip\ HERE.txt
+    |-- data.zip << - Provide this file
+    |-- libSDL-1.2.so.0
+    `-- vvv_sdl12
