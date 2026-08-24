@@ -2,7 +2,7 @@
 # Standalone Ports Script Template
 
 # main configuration :
-GameName="VVVVVV (Port)"
+GameName="VVVVVV 2.3.6 (Port)"
 GameDir="VVVVVV"
 GameExecutable="VVVVVV"
 GameDataFile="data.zip"
