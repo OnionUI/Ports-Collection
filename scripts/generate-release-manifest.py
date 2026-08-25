@@ -148,7 +148,7 @@ def port_record(port_root: Path, repo_root: Path, archive_dir: Path, repository:
     for path in required:
         required_documents.append({
             "path": path.relative_to(port_root).as_posix(),
-            "text": read_text(path),
+            "lines": read_text(path).splitlines(),
         })
 
     record: dict[str, object] = {
