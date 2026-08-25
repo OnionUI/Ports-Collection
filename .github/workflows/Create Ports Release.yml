@@ -31,8 +31,19 @@ jobs:
       - name: 7zipping Directories
         run: |
           for d in */ ; do
+            [ -d "$d/Roms/PORTS" ] || continue
             cd "$d" && 7z a "../${d%/}.7z" . && 7z a "../-Onion-Ports-Collection_v${{ env.BUILD_VERSION }}.7z" . && cd ..
           done
+
+      - name: Generate release manifest
+        run: |
+          python3 scripts/generate-release-manifest.py \
+            --version "${BUILD_VERSION}" \
+            --tag "${GITHUB_REF_NAME}" \
+            --commit "${GITHUB_SHA}" \
+            --repository "${GITHUB_REPOSITORY}" \
+            --output ports-manifest.json
+          jq empty ports-manifest.json
 
       - name: Create Release
         uses: marvinpinto/action-automatic-releases@latest
@@ -40,8 +51,8 @@ jobs:
           repo_token: ${{ secrets.GITHUB_TOKEN }}
           title: "Ports Collection v${{ env.BUILD_VERSION }}"
           prerelease: false
-          files: ./*.7z
+          files: |
+            ./*.7z
+            ports-manifest.json
           draft: false
           # automatic_release_tag: latest
-
-
