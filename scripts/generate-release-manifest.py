@@ -140,7 +140,7 @@ def port_record(port_root: Path, repo_root: Path, archive_dir: Path, repository:
     )
     manuals = relative_files(
         ports_root / "Manuals",
-        lambda path: True,
+        lambda path: path.name != ".gitkeep",
     ) if (ports_root / "Manuals").is_dir() else []
 
     source_files = [path for path in port_root.rglob("*") if path.is_file()]
